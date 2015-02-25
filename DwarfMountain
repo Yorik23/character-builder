@@ -1,0 +1,39 @@
+package characterBuilder5e;
+
+public class DwarfMountain extends CharRace{
+	final private int Str = 1;
+	final private int Con = 2;
+	final private int Dex = 0;
+	final private int Intel = 0;
+	final private int Wis = 0;
+	final private int Cha = 0;
+	
+	public DwarfMountain() {
+		super();
+	}
+
+	public int getIntel() {
+		return Intel;
+	}
+
+	public int getStr() {
+		return Str;
+	}
+
+	public int getCon() {
+		return Con;
+	}
+
+	public int getDex() {
+		return Dex;
+	}
+
+	public int getWis() {
+		return Wis;
+	}
+
+	public int getCha() {
+		return Cha;
+	}
+	
+}
