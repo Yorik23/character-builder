@@ -1,0 +1,147 @@
+package characterBuilder5e;
+
+public class Character {
+	String characterName;
+    int Str;
+    int Con;
+    int Dex;
+    int Intel;
+    int Wis;
+    int Cha;
+    
+    String className;
+    int hitDie;
+    int level;
+    int hitPoints;
+    String raceName;
+    
+    
+    private int AC;
+
+	public int getStr() {
+		return Str;
+	}
+
+	public void setStr(int str) {
+		Str = str;
+	}
+
+	public int getCon() {
+		return Con;
+	}
+
+	public void setCon(int con) {
+		Con = con;
+	}
+
+	public int getDex() {
+		return Dex;
+	}
+
+	public void setDex(int dex) {
+		Dex = dex;
+	}
+
+	public int getIntel() {
+		return Intel;
+	}
+
+	public void setIntel(int intel) {
+		Intel = intel;
+	}
+
+	public int getWis() {
+		return Wis;
+	}
+
+	public void setWis(int wis) {
+		Wis = wis;
+	}
+
+	public int getCha() {
+		return Cha;
+	}
+
+	public void setCha(int cha) {
+		Cha = cha;
+	}
+
+	public int getHitDie() {
+		return hitDie;
+	}
+
+	public void setHitDie(int hitDie) {
+		this.hitDie = hitDie;
+	}
+
+	public int getLevel() {
+		return level;
+	}
+
+	public void setLevel(int level) {
+		this.level = level;
+	}
+
+	public String getRaceName() {
+		return raceName;
+	}
+
+	public void setRaceName(String raceName) {
+		this.raceName = raceName;
+	}
+
+	public int getAC() {
+		return AC;
+	}
+
+	public void setAC(int aC) {
+		AC = aC;
+	}
+
+	public String getClassName() {
+		return className;
+	}
+
+	public void setClassName(String className) {
+		this.className = className;
+	}
+	public String getCharacterName() {
+		return characterName;
+	}
+
+	public void setCharacterName(String characterName) {
+		this.characterName = characterName;
+	}
+
+	public Character(String characterName, int str, int con, int dex, int intel, int wis, int cha,
+			String className, int hitDie, int level, String raceName, int aC) {
+		super();
+		this.characterName = characterName;
+		Str = str;
+		Con = con;
+		Dex = dex;
+		Intel = intel;
+		Wis = wis;
+		Cha = cha;
+		this.className = className;
+		this.hitDie = hitDie;
+		this.level = level;
+		this.raceName = raceName;
+		AC = aC;
+	}
+		
+		public Character(String characterName,	String className, String raceName) {
+			super();
+			this.characterName = characterName;
+			this.className = className;
+			this.raceName = raceName;
+			
+		
+		
+	}
+
+	
+    
+    
+    
+}
