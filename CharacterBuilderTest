@@ -1,0 +1,27 @@
+package characterBuilder5e;
+//import java.util.*;
+
+public class CharacterBuilderTest {
+	
+	public static void main(String[] args){
+		
+        Character myCharacter = new Character("Sylvanus", "Druid", "Wood Elf");
+	
+        
+	if (myCharacter.raceName.equals("Wood Elf")) {
+	System.out.println("True");
+		//return;
+	}
+	if (myCharacter.className.equals("Druid")){
+		System.out.println("True");
+	}
+	 if (myCharacter.Str==10){
+		 System.out.println("True");
+	 }
+		 
+	 if (myCharacter.Wis==15){
+		 System.out.println("True");
+	 }
+	
+  }
+}
