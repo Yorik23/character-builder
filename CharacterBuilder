@@ -1,0 +1,31 @@
+package characterBuilder5e;
+
+public class CharacterBuilder {
+	public static void main(String[] args){
+		
+		Character myCharacter = new Character("Sylvanus","Druid","Wood Elf");
+		//"Sylvanus",10, 10, 10, 10, 10, 10, "Druid", 8, 10, "Wood Elf", 10
+		 
+	
+	
+	if (myCharacter.className.equals("Druid")){
+		Druid myDruid = new Druid();
+		myDruid.getStr();
+		myDruid.getCon();
+		myDruid.getDex();
+		myDruid.getIntel();
+		myDruid.getWis();
+		myDruid.getCha();
+		myDruid.getHitDie();
+		myDruid.getClassAbilities();
+		myDruid.getStr();
+		
+	}
+	
+	
+	
+	//System.out.println(myCharacter.getCharacterName());
+	//System.out.print(myCharacter.getRaceName()+ " " + myCharacter.getClassName());
+	//System.out.print();
+	}
+}
