@@ -1,0 +1,44 @@
+package characterBuilder5e;
+
+public class Druid extends CharClass {
+	final int Str = 10;
+	final int Con = 13;
+	final int Dex = 14;
+	final int Intel = 10;
+	final int Wis = 15;
+	final int Cha = 10;
+    String[] classAbilities = {"Circle of the Land","Circle of the Moon"};
+	final String hitDie = "d8";
+	
+    public int getStr() {
+		return Str;
+	}
+	public int getCon() {
+		return Con;
+	}
+	public int getDex() {
+		return Dex;
+	}
+	public int getIntel() {
+		return Intel;
+	}
+	public int getWis() {
+		return Wis;
+	}
+	public int getCha() {
+		return Cha;
+	}
+	
+	public String[] getClassAbilities() {
+		return classAbilities;
+	}
+	public void setClassAbilities(String[] classAbilities) {
+		this.classAbilities = classAbilities;
+	}
+	public String getHitDie() {
+		return hitDie;
+	}
+	
+}
+
+
