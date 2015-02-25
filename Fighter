@@ -1,0 +1,45 @@
+package characterBuilder5e;
+
+public class Fighter extends CharClass {
+	final int Str = 15;
+	final int Con = 13;
+	final int Dex = 14;
+	final int Intel = 10;
+	final int Wis = 8;
+	final int Cha = 12;
+    String[] classAbilities = {"Sword and Board","Two-Handed","Duelist"};
+	final String hitDie = "d10";
+	
+    public int getStr() {
+		return Str;
+	}
+	public int getCon() {
+		return Con;
+	}
+	public int getDex() {
+		return Dex;
+	}
+	public int getIntel() {
+		return Intel;
+	}
+	public int getWis() {
+		return Wis;
+	}
+	public int getCha() {
+		return Cha;
+	}
+	
+	public String[] getClassAbilities() {
+		return classAbilities;
+	}
+	public void setClassAbilities(String[] classAbilities) {
+		this.classAbilities = classAbilities;
+	}
+	public String getHitDie() {
+		return hitDie;
+	}
+	
+}
+    
+
+
