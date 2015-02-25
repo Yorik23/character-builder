@@ -1,0 +1,44 @@
+package characterBuilder5e;
+
+public class ElfWood extends CharRace {
+	
+	final private String raceName= "Wood Elf";
+	final private int Str = 0;
+	final private int Con = 0;
+	final private int Dex = 2;
+	final private int Intel = 0;
+	final private int Wis = 1;
+	final private int Cha = 0;
+	final String racialAbilities = "35 ft base movement, Darkvision 60', Fey Ancestry, Trance, Elf Weapon Training, Mask of the Wild, Keen Senses (proficient in Perception)";
+	
+	public int getStr() {
+		return Str;
+	}
+
+	public int getCon() {
+		return Con;
+	}
+
+	public int getDex() {
+		return Dex;
+	}
+
+	public int getIntel() {
+		return Intel;
+	}
+
+	public int getWis() {
+		return Wis;
+	}
+
+	public int getCha() {
+		return Cha;
+	}
+
+	public String getRaceName() {
+		return raceName;
+	}
+
+
+
+}
